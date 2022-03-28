@@ -24,3 +24,5 @@ target_compile_options(fixedint PRIVATE
           -Wall -pedantic-errors -pedantic -Wextra -Wconversion -Wsign-conversion>
      $<$<CXX_COMPILER_ID:MSVC>:
           /W4>)
+
+install(TARGETS fixedint DESTINATION ${CMAKE_SOURCE_DIR})
