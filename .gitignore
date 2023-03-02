@@ -1,2 +1,8 @@
 build/
 fixedint
+CMakeCache.txt
+CMakeFiles/
+Makefile
+archdep
+archdep2
+cmake_install.cmake
